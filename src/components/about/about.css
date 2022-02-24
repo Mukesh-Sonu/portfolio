@@ -13,7 +13,7 @@
     var(--color-primary),
     transparent
   );
-  display: grid;
+  display: block;
   place-items: center;
 }
 
@@ -23,7 +23,7 @@
   transform: rotate(10deg);
   transition: var(--transition);
 }
-.about__me-image :hover {
+.about__me-image:hover {
   transform: rotate(0);
 }
 .about__cards {
@@ -75,6 +75,9 @@
     width: 50%;
     margin: 2rem auto 4rem;
   }
+  .about__content {
+    text-align: center;
+  }
 
   .about__content p {
     margin: 1rem 0 1.5rem;
@@ -92,7 +95,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
-
+  .about__content {
+    text-align: center;
+  }
   .about__content p {
     margin: 1.5rem 0;
   }
