@@ -23,10 +23,11 @@
 .portfolio__item h3 {
   margin: 1.2rem 0 2rem;
 }
-
+.btn-git {
+  width: 100%;
+  text-align: center;
+}
 .portfolio__item-cta {
-  /* display: flex;
-  gap: 1rem; */
   margin-bottom: 1rem;
 }
 /*========MEDIA QUERIES(MEDIUM DEVICES)=====*/

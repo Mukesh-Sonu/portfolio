@@ -11,42 +11,37 @@ function Portfolio() {
       id: 1,
       image: tasktracker,
       title: "Task Tracker",
-      github: "https://github.com",
+      github: "https://github.com/Mukesh-Sonu/Task-manager-using-json-server",
     },
     {
       id: 2,
-      image: Rb,
-      title: "Recipe Book",
-      github: "https://github.com",
-      demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
+      image: expensetracker,
+      title: "Expense Tracker",
+      github: "https://github.com/Mukesh-Sonu/Expense-Tracker",
     },
     {
       id: 3,
       image: gitfinder,
       title: "GitHub Finder",
-      github: "https://github.com",
-      demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
+      github: "https://github.com/Mukesh-Sonu/github-finder",
     },
     {
       id: 4,
       image: feedback,
       title: "Feedback App",
-      github: "https://github.com",
-      demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
+      github: "https://github.com/Mukesh-Sonu/Feedback-app",
     },
     {
       id: 5,
       image: Cm,
       title: "Contact Manager",
-      github: "https://github.com",
-      demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
+      github: "https://github.com/Mukesh-Sonu/Contact-Manager",
     },
     {
       id: 6,
-      image: expensetracker,
-      title: "Expense Tracker",
-      github: "https://github.com",
-      demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
+      image: Rb,
+      title: "Recipe Book",
+      github: "https://github.com/Mukesh-Sonu/Recipe-Book-Angular-",
     },
   ];
 
@@ -62,12 +57,9 @@ function Portfolio() {
             </div>
             <h3>{item.title}</h3>
             <div className="portfolio__item-cta">
-              <a href={item.github} className="btn">
+              <a href={item.github} className="btn btn-git" target="blank">
                 Github
               </a>
-              {/* <a href={item.demo} className="btn btn-primary" target="blank">
-                Live Demo
-        </a> */}
             </div>
           </div>
         ))}
