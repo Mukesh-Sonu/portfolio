@@ -18,29 +18,25 @@ function About() {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+            <div className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>6+ months intern</small>
-            </article>
+            </div>
 
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>6+ months intern</small>
-            </article>
-
-            <article className="about__card">
+            <div className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>6+ Completed projects</small>
-            </article>
+            </div>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt,
-            consectetur in aperiam est modi voluptas iure, autem eligendi porro
-            quos necessitatibus et maiores ea explicabo earum. Magnam amet
-            deleniti reprehenderit!
+            I'm in my Final year of Engineering, studying in the department of{" "}
+            <strong>Electrical and Electronics Engineering </strong> <br />
+            <br />
+            I'm a self-taught passionate FrontEnd developer. I’m currently an
+            Intern at <strong>KAAR Technologies </strong> as a{" "}
+            <strong>FrontEnd Developer.</strong>
           </p>
 
           <a href="#contact" className="btn btn-primary">

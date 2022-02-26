@@ -1,46 +1,50 @@
-import "./portfolio.css";
-import IMG1 from "../../assests/proj1.jpg";
+import "./projects.css";
+import tasktracker from "../../assests/task-tracker.png";
+import gitfinder from "../../assests/github-finder.png";
+import feedback from "../../assests/feedback.png";
+import expensetracker from "../../assests/expense-tracker.png";
+import Rb from "../../assests/Recipe-Book.png";
+import Cm from "../../assests/contact-manager.png";
 function Portfolio() {
   const data = [
     {
       id: 1,
-      image: IMG1,
+      image: tasktracker,
       title: "Task Tracker",
       github: "https://github.com",
-      demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
     },
     {
       id: 2,
-      image: IMG1,
-      title: "Task Tracker",
+      image: Rb,
+      title: "Recipe Book",
       github: "https://github.com",
       demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
     },
     {
       id: 3,
-      image: IMG1,
-      title: "Task Tracker",
+      image: gitfinder,
+      title: "GitHub Finder",
       github: "https://github.com",
       demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
     },
     {
       id: 4,
-      image: IMG1,
-      title: "Task Tracker",
+      image: feedback,
+      title: "Feedback App",
       github: "https://github.com",
       demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
     },
     {
       id: 5,
-      image: IMG1,
-      title: "Task Tracker",
+      image: Cm,
+      title: "Contact Manager",
       github: "https://github.com",
       demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
     },
     {
       id: 6,
-      image: IMG1,
-      title: "Task Tracker",
+      image: expensetracker,
+      title: "Expense Tracker",
       github: "https://github.com",
       demo: "https://dribbble.com/shots/17580488-NFT-Minting-Perks",
     },
@@ -48,12 +52,11 @@ function Portfolio() {
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
         {data.map((item) => (
-          <article key={item.id} className="portfolio__item">
+          <div key={item.id} className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={item.image} alt="" />
             </div>
@@ -62,11 +65,11 @@ function Portfolio() {
               <a href={item.github} className="btn">
                 Github
               </a>
-              <a href={item.demo} className="btn btn-primary" target="_blank">
+              {/* <a href={item.demo} className="btn btn-primary" target="blank">
                 Live Demo
-              </a>
+        </a> */}
             </div>
-          </article>
+          </div>
         ))}
       </div>
     </section>

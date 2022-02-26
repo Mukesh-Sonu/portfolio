@@ -27,33 +27,24 @@ function Contact() {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <div className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>mukeshmuki761@gmail.com</h5>
             <a href="mailto:mukeshmuki761@gmail.com">Send a message</a>
-          </article>
+          </div>
 
-          <article className="contact__option">
-            <BsTelegram className="contact__option-icon" />
-            <h4>Telegram</h4>
-            <h5>Mukesh</h5>
-            <a href="https://web.telegram.org/z/" target="_blank">
-              Send a message
-            </a>
-          </article>
-
-          <article className="contact__option">
+          <div className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>+123456789</h5>
+            <h5>6379428124</h5>
             <a
               href="https://api.whatsapp.com/send?phone+6379428124"
               target="_blank"
             >
               Send a message
             </a>
-          </article>
+          </div>
         </div>
         {/* End of Contact Options*/}
 

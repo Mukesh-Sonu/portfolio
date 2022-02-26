@@ -3,13 +3,10 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
-import { BsTelegram } from "react-icons/bs";
 function Footer() {
   return (
     <footer>
-      <a href="#" className="footer__logo">
-        EGATOR
-      </a>
+      <div className="footer__logo">#Findmebelow...</div>
 
       <ul className="permalinks">
         <li>
@@ -19,10 +16,10 @@ function Footer() {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience">My Skills</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">Projects</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -30,18 +27,16 @@ function Footer() {
       </ul>
 
       <div className="footer__socials" target="blank">
-        <a href="https://linkedin.com">
+        <a href="https://www.linkedin.com/in/mukesh-s-385505214/">
           <BsLinkedin />
         </a>
-        <a href="https://github.com" target="blank">
+        <a href="https://github.com/Mukesh-Sonu" target="blank">
           <FaGithub />
         </a>
         <a href="https://api.whatsapp.com/send?phone+6379428124" target="blank">
           <BsWhatsapp />
         </a>
-        <a href="https://web.telegram.org/z/" target="blank">
-          <BsTelegram />
-        </a>
+
         <a href="mailto:mukeshmuki761@gmail.com" target="blank">
           <MdOutlineEmail />
         </a>
