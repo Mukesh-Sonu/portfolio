@@ -1,7 +1,5 @@
 import "./about.css";
 import im2 from "../../assests/im2.jpeg";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 function About() {
   return (
@@ -12,18 +10,12 @@ function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={im2} alt="About Image" />
+            <img src={im2} alt="About Img" />
           </div>
         </div>
 
         <div className="about__content">
           <div className="about__cards">
-            <div className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>6+ months intern</small>
-            </div>
-
             <div className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
@@ -34,9 +26,9 @@ function About() {
             I'm in my Final year of Engineering, studying in the department of{" "}
             <strong>Electrical and Electronics Engineering </strong> <br />
             <br />
-            I'm a self-taught passionate FrontEnd developer. I’m currently an
-            Intern at <strong>KAAR Technologies </strong> as a{" "}
-            <strong>FrontEnd Developer.</strong>
+            I'm a self-taught passionate FrontEnd developer. I'm very much
+            interested in learning new technologies and exploring in the web
+            development space !!
           </p>
 
           <a href="#contact" className="btn btn-primary">
