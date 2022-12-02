@@ -28,15 +28,19 @@ function About() {
             experimenting in the web development field are two things that
             really excite me.
           </p>
-
           <p>
             I currently work with{" "}
             <strong className="company">KeepWorks Technologies</strong> in
-            Bangalore and have 10 months of experience. I'm a part of {""}
+            Bangalore and have 10 months of experience. I'm a working on {""}
             <strong style={{ color: "#dee2e6" }}>
               AT&T API Marketplace
             </strong>{" "}
-            team. It is among the country's biggest telecom providers.
+            project.
+            <br />
+            It is one among the largest telecom providers in the United States,
+            that will allow customers to manage their underlying users, purchase
+            phone numbers, and assign voice plans based on monthly
+            subscriptions.
           </p>
 
           <a href="#contact" className="btn btn-primary">
