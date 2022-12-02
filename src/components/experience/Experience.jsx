@@ -45,12 +45,6 @@ function Experience() {
                 <h4>React</h4>
               </div>
             </div>
-            <div className="experience__details">
-              <BsPatchCheckFill className="experience__details-icons" />
-              <div>
-                <h4>Angular</h4>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -23,12 +23,18 @@ function About() {
             </div>
           </div>
           <p>
-            I'm in my Final year of Engineering, studying in the department of{" "}
-            <strong>Electrical and Electronics Engineering </strong> <br />
-            <br />
-            I'm a self-taught passionate FrontEnd developer. I'm very much
-            interested in learning new technologies and exploring in the web
-            development space !!
+            My final year of engineering at Sri Ramakrishna Engineering College
+            in Coimbatore just ended. Learning new technologies and
+            experimenting in the web development field are two things that
+            really excite me.
+          </p>
+
+          <p>
+            I currently work with{" "}
+            <strong className="company">KeepWorks Technologies</strong> in
+            Bangalore and have 10 months of experience. I'm a part of the{" "}
+            <strong style={{ color: "#dee2e6" }}>AT&T API Marketplace </strong>{" "}
+            team. It is among the biggest telecom providers in the country.
           </p>
 
           <a href="#contact" className="btn btn-primary">
