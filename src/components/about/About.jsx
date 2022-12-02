@@ -32,9 +32,11 @@ function About() {
           <p>
             I currently work with{" "}
             <strong className="company">KeepWorks Technologies</strong> in
-            Bangalore and have 10 months of experience. I'm a part of the{" "}
-            <strong style={{ color: "#dee2e6" }}>AT&T API Marketplace </strong>{" "}
-            team. It is among the biggest telecom providers in the country.
+            Bangalore and have 10 months of experience. I'm a part of {""}
+            <strong style={{ color: "#dee2e6" }}>
+              AT&T API Marketplace
+            </strong>{" "}
+            team. It is among the country's biggest telecom providers.
           </p>
 
           <a href="#contact" className="btn btn-primary">
