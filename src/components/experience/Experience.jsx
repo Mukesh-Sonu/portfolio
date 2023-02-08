@@ -42,7 +42,13 @@ function Experience() {
             <div className="experience__details">
               <BsPatchCheckFill className="experience__details-icons" />
               <div>
-                <h4>React</h4>
+                <h4>ReactJs</h4>
+              </div>
+            </div>
+            <div className="experience__details">
+              <BsPatchCheckFill className="experience__details-icons" />
+              <div>
+                <h4>NextJs</h4>
               </div>
             </div>
           </div>

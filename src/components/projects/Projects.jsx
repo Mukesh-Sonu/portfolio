@@ -3,8 +3,8 @@ import tasktracker from "../../assests/task-tracker.png";
 import gitfinder from "../../assests/github-finder.png";
 import feedback from "../../assests/feedback.png";
 import expensetracker from "../../assests/expense-tracker.png";
-import Rb from "../../assests/Recipe-Book.png";
-import Cm from "../../assests/contact-manager.png";
+import movies from "../../assests/movies.png";
+import foodie from "../../assests/foodie.png";
 function Portfolio() {
   const data = [
     {
@@ -33,15 +33,15 @@ function Portfolio() {
     },
     {
       id: 5,
-      image: Cm,
-      title: "Contact Manager",
-      github: "https://github.com/Mukesh-Sonu/Contact-Manager",
+      image: foodie,
+      title: "Recipe Lookup",
+      github: "https://github.com/Mukesh-Sonu/recipe-lookup",
     },
     {
       id: 6,
-      image: Rb,
-      title: "Recipe Book",
-      github: "https://github.com/Mukesh-Sonu/Recipe-Book-Angular-",
+      image: movies,
+      title: "Movie App",
+      github: "https://github.com/Mukesh-Sonu/MovieApp-NextJs",
     },
   ];
 

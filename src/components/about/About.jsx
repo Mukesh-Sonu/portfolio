@@ -31,7 +31,7 @@ function About() {
           <p>
             I currently work with{" "}
             <strong className="company">KeepWorks Technologies</strong> in
-            Bangalore and have 10 months of experience. I'm a working on {""}
+            Bangalore and have 1 year of experience. I'm a working on {""}
             <strong style={{ color: "#dee2e6" }}>
               AT&T API Marketplace
             </strong>{" "}
