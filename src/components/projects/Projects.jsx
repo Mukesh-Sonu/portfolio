@@ -15,21 +15,21 @@ function Portfolio() {
     },
     {
       id: 2,
-      image: expensetracker,
-      title: "Expense Tracker",
-      github: "https://github.com/Mukesh-Sonu/Expense-Tracker",
-    },
-    {
-      id: 3,
       image: gitfinder,
       title: "GitHub Finder",
       github: "https://github.com/Mukesh-Sonu/github-finder",
     },
     {
-      id: 4,
+      id: 3,
       image: feedback,
       title: "Feedback App",
       github: "https://github.com/Mukesh-Sonu/Feedback-app",
+    },
+    {
+      id: 4,
+      image: expensetracker,
+      title: "Expense Tracker",
+      github: "https://github.com/Mukesh-Sonu/Expense-Tracker",
     },
     {
       id: 5,
