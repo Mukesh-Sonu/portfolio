@@ -24,23 +24,27 @@ function About() {
           </div>
           <p>
             My final year of engineering at Sri Ramakrishna Engineering College
-            in Coimbatore just ended. Learning new technologies and
+            in Coimbatore. Learning new technologies and
             experimenting in the web development field are two things that
             really excite me.
           </p>
           <p>
-            I currently work with{" "}
-            <strong className="company">KeepWorks Technologies</strong> in
-            Bangalore and have 1 year of experience. I'm working on {""}
-            <strong style={{ color: "#dee2e6" }}>
+            As a FrontEnd Developer, I have contributed significantly to two
+            dynamic tech environments. At <strong style={{ color: "#dee2e6" }}>
+              LEARNYST
+            </strong> since March 2023, I played a
+            key role in advancing the platform, overseeing learner profile data
+            and contributing to the launch of over 5000 courses generating $4
+            million in sales. My tech stack includes React, TypeScript, GraphQL,
+            Amazon AWS, Redux-Bundler, and Theme-UI. Previously, at <strong style={{ color: "#dee2e6" }}>
+              KEEPWORKS
+            </strong>, I streamlined forms, organized content,
+            implemented toast notifications for a better user experience, and
+            resolved UI bugs across various devices using JavaScript, NextJS,
+            and GraphQL during my time at <strong style={{ color: "#dee2e6" }}>
               AT&T API Marketplace
-            </strong>{" "}
-            project.
-            <br />
-            It is one among the largest telecom providers in the United States,
-            that will allow customers to manage their underlying users, purchase
-            phone numbers, and assign voice plans based on monthly
-            subscriptions.
+            </strong> from March 2022
+            to March 2023.
           </p>
 
           <a href="#contact" className="btn btn-primary">
