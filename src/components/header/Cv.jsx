@@ -1,11 +1,11 @@
 import React from "react";
-// import CV from "../../assests/Mukesh_S_Resume.pdf";
+import CV from "../../assests/Mukesh_S_Resume.pdf";
 function Cv() {
   return (
     <div className="cta">
-      {/* <a href={CV} download className="btn">
+      <a href={CV} download className="btn">
         Download CV
-      </a> */}
+      </a>
       <a href="#contact" className="btn btn-primary">
         Let's Talk
       </a>
