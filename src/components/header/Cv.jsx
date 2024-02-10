@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assests/MUKESH_S_RESUME";
+import CV from "../../assests/MUKESH_S_Resume.pdf";
 function Cv() {
   return (
     <div className="cta">
