@@ -12,25 +12,7 @@ function Experience() {
             <div className="experience__details">
               <BsPatchCheckFill className="experience__details-icons" />
               <div>
-                <h4>HTML</h4>
-              </div>
-            </div>
-            <div className="experience__details">
-              <BsPatchCheckFill className="experience__details-icons" />
-              <div>
-                <h4>CSS</h4>
-              </div>
-            </div>
-            <div className="experience__details">
-              <BsPatchCheckFill className="experience__details-icons" />
-              <div>
                 <h4>Java Script</h4>
-              </div>
-            </div>
-            <div className="experience__details">
-              <BsPatchCheckFill className="experience__details-icons" />
-              <div>
-                <h4>Bootstrap</h4>
               </div>
             </div>
             <div className="experience__details">
@@ -49,6 +31,24 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icons" />
               <div>
                 <h4>NextJs</h4>
+              </div>
+            </div>
+            <div className="experience__details">
+              <BsPatchCheckFill className="experience__details-icons" />
+              <div>
+                <h4>Shadcn</h4>
+              </div>
+            </div>
+            <div className="experience__details">
+              <BsPatchCheckFill className="experience__details-icons" />
+              <div>
+                <h4>GraphQl</h4>
+              </div>
+            </div>
+            <div className="experience__details">
+              <BsPatchCheckFill className="experience__details-icons" />
+              <div>
+                <h4>Lit (Web compoents)</h4>
               </div>
             </div>
           </div>

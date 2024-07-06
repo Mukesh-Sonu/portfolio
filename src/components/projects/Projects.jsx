@@ -4,14 +4,15 @@ import gitfinder from "../../assests/github-finder.png";
 import feedback from "../../assests/feedback.png";
 import expensetracker from "../../assests/expense-tracker.png";
 import movies from "../../assests/movies.png";
+import trimmer from "../../assests/trimmer.png";
 import foodie from "../../assests/foodie.png";
 function Portfolio() {
   const data = [
     {
       id: 1,
-      image: tasktracker,
-      title: "Task Tracker",
-      github: "https://github.com/Mukesh-Sonu/Task-manager-using-json-server",
+      image: trimmer,
+      title: "URL shortner",
+      github: "https://github.com/Mukesh-Sonu/URL-shortner",
     },
     {
       id: 2,
@@ -21,24 +22,30 @@ function Portfolio() {
     },
     {
       id: 3,
+      image: tasktracker,
+      title: "Task Tracker",
+      github: "https://github.com/Mukesh-Sonu/Task-manager-using-json-server",
+    },
+    {
+      id: 4,
       image: feedback,
       title: "Feedback App",
       github: "https://github.com/Mukesh-Sonu/Feedback-app",
     },
     {
-      id: 4,
+      id: 5,
       image: expensetracker,
       title: "Expense Tracker",
       github: "https://github.com/Mukesh-Sonu/Expense-Tracker",
     },
     {
-      id: 5,
+      id: 6,
       image: foodie,
       title: "Recipe Lookup",
       github: "https://github.com/Mukesh-Sonu/recipe-lookup",
     },
     {
-      id: 6,
+      id: 7,
       image: movies,
       title: "Movie App",
       github: "https://github.com/Mukesh-Sonu/MovieApp-NextJs",
